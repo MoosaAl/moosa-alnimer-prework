@@ -1,0 +1,19 @@
+body {
+    text-transform: uppercase;
+    background-color: #79B9C6;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  #super-title {
+    color: black;
+  }
+
+  #website-title {
+      font-weight: 700;
+  }
+
+  #focal-html {
+      background-color: #79B9C6;
+      margin-top:20%;
+  }
