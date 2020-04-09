@@ -1,6 +1,6 @@
 var userInput = 0;
 
-userInput = prompt("Please type your name ");
+userInput = prompt("Please type your name ", " ");
 
 var nameString = "Your name is ";
 
