@@ -1,8 +1,6 @@
 var userInput = 0;
 
-while(typeof userInput !== "string") {
-    userInput = prompt("Please type your name ");
-}
+userInput = prompt("Please type your name ");
 
 var nameString = "Your name is ";
 
