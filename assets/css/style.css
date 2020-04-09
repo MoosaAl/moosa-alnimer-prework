@@ -1,0 +1,52 @@
+body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url('../images/funky-lines.png');
+    background-repeat: repeat;
+}
+
+a {
+    color: #0aada5;
+}
+
+a:hover {
+    color: #777777;
+}
+
+.highlighted-background {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.highlighted-text {
+    color: #4aaaa5;
+}
+
+#message-input {
+    min-height: 70px;
+}
+
+#navbar {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#main-header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#main-header > div {
+    max-width: 960px;
+}
+
+#main-content {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    max-width: 960px;
+}
+
+#footer {
+    background-color: #666666;
+    color: #ffffff;
+}

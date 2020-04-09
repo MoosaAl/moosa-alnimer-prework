@@ -5,4 +5,5 @@ Each Assessment is within its own folder to help with clarity.
 Here is a list for each assessment and its corresponding folders:  
 - HTML and Basic CSS Assesment :  ```HTML_BasicCSS_Assessment```
 - CSS Assesment :  ```CSS_Assessment```
-- Bootstrap_Assessment : ```Bootstrap_Assessment```
+- Bootstrap Assessment : ```Bootstrap_Assessment```
+- Module 1 Assessment : ```Module-1_Assessment```
