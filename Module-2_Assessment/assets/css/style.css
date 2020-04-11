@@ -1,0 +1,103 @@
+body {
+    font-family: customFont;
+    font-size: 17px;
+    height:100%;
+    perspective: 750px;
+    animation-fill-mode: forwards;
+    perspective-origin: 50% 100px;
+    animation: bodyMovePadding 1s ease;
+    animation-play-state: paused;
+    background-color: #3b6978;
+    background-image: url("../images/stardust.png");
+    color: #cae8d5;
+    overflow: hidden;
+}
+
+body span {
+    font-size: 15px;
+}
+
+#gameContainer > div, hr {
+    margin-bottom: 20px;
+}
+
+#gameContainer {
+    margin: auto;
+    margin-top: 15px;
+    width:425px;
+    height:550px;
+    text-align: center;
+    padding-top: 25px;
+    display: none;
+    border-radius: 7px;
+    animation: introRotation 0.5s ease;
+    border: 3px solid #1c2124;
+    background-color: rgba(57, 68, 71, 0.625);
+}
+
+#bodyContainer {
+    text-align: center;
+    margin-top: 35px;
+    width: 100%;
+}
+
+#hintImg {
+    border-radius: 7px;
+    border: 2px solid #1c2124;
+}
+
+@keyframes bodyMovePadding {
+    0% {padding-top: 250px;}
+    25% {padding-top: 325px;}
+    100% {padding-top: 0;}
+}
+
+@keyframes introRotation{
+    0% {transform: rotateX(-85deg); height: 250px;}
+    50% {transform: rotateX(35deg);}
+    100% {transform: rotateX(0); height: 550px;}
+}
+
+@keyframes resetRotation{
+    0% {transform: rotateX(-85deg);}
+    50% {transform: rotateX(35deg);}
+    100% {transform: rotateX(0);}
+}
+
+@keyframes resetRotationTwo{
+    0% {transform: rotateX(85deg);}
+    50% {transform: rotateX(-35deg);}
+    100% {transform: rotateX(0);}
+}
+
+@keyframes nextRotation{
+    0% {transform: rotateY(105deg);}
+    50% {transform: rotateY(-15deg);}
+    100% {transform: rotateY(0deg);}
+}
+
+@keyframes secondRotation{
+    0% {transform: rotateY(-105deg);}
+    50% {transform: rotateY(15deg);}
+    100% {transform: rotateY(0deg);}
+}
+
+@keyframes failedAttempt {
+    0% {transform: translate(0, 0);}
+    25% {transform: translate(70px, 0);}
+    75% {transform: translate(-70px, 0);}
+    100% {transform: translate(0, 0);}
+}
+
+@keyframes failedAttemptTwo {
+    0% {transform: translate(0, 0);}
+    25% {transform: translate(25px, 0);}
+    50% {transform: translate(-20px, 0);}
+    75% {transform: translate(25px, 0);}
+    100% {transform: translate(0, 0);}
+}
+
+@font-face {
+    font-family: customFont;
+    src: url(../fonts/Multicolore.otf);
+}

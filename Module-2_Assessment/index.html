@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Where are we?</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/game.js"> </script>
+</head>
+
+<body>
+    <div id="soundBoard">
+        <audio loop>
+            <source src="assets/songs/chiptune-0.mp3" type="audio/mp3">
+            your browser does not support the audio element.
+        </audio>
+        <audio loop><source src="assets/songs/chiptune-1.mp3" type="audio/mp3"></audio>
+        <audio loop><source src="assets/songs/chiptune-2.mp3" type="audio/mp3"></audio>
+        <audio loop><source src="assets/songs/chiptune-3.mp3" type="audio/mp3"></audio>
+    </div>
+    
+    <div id="bodyContainer">
+        <h1>where are we?</h1>
+        <h2 id="startPrompt">press any button to begin</h2>
+        <div id="gameContainer">
+            <div id="currentScoreContainer"><span id="currentScore"></span></div>
+            <div id="currentWordDisplay">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <hr />
+            <img id="hintImg" src="../images/factory.png" height="150" width="200" />
+            <hr />
+            <div id="remainingAttemptsContainer"><span id="remainingAttempts"></span> guess(es) remaining</div>
+            <div id="guessPoolContainer">letters guessed:<br><span id="guessPoolDisplay"></span></div>
+            <br>
+            <button id="resetButton" onclick="promptReset()">reset game</button>
+        </div>
+    </div>
+</body>
+
+</html>
