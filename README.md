@@ -1,5 +1,5 @@
 # README
-Hello, this is the repository created for Moosa Al-Nimer it uses a combination of HTML, CSS, and Javascript! It assumes that the user is using a recent version of Google Chrome and has Javascript enabled.
+Hello, this is the repository created for Moosa Al-Nimer it uses a combination of HTML, CSS, and Javascript! It assumes that the user is using a recent version of Google Chrome and has Javascript enabled. The Assets folder in the top leve repository folder belongs to Module 1, and should be imported when viewing any page that requires a reset.css
 
 Each Assessment is within its own folder to help with clarity.  
 Here is a list for each assessment and its corresponding folders:  

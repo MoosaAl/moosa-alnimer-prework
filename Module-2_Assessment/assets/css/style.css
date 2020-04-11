@@ -30,7 +30,7 @@ body span {
     padding-top: 25px;
     display: none;
     border-radius: 7px;
-    animation: introRotation 0.5s ease;
+    animation: introRotation 1.5s ease;
     border: 3px solid #1c2124;
     background-color: rgba(57, 68, 71, 0.625);
 }

@@ -11,7 +11,7 @@ const NEW_ANIMATIONS = ["resetRotation", "resetRotationTwo", "introRotation"];
 const WRONG_ANIMATIONS = ["failedAttempt", "failedAttemptTwo"];
 
 //global variables
-var offsetCounter = 0;
+var offsetCounter = 2;
 var animationCtr = 0;
 var wrongCtr = 0;
 var wrongFlag = false;

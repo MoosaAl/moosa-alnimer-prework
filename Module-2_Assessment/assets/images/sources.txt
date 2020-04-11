@@ -1,1 +1,3 @@
-All images were taken from Lorem Picsum (https://picsum.photos/) and have been rescaled and sized down to their respectevie sizes.
+All but one of the images were taken from Lorem Picsum (https://picsum.photos/) and have been rescaled and sized down to their respectevie sizes.
+The background image was taken from Sublte Patterns (https://www.toptal.com/designers/subtlepatterns/).
+The font selected was Multicolore from DaFont (https://www.dafont.com/multicolore.font) and is marked as 100% free.
